@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Getting Started with HTML</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <button id="nav-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+      </ul>
+      <button id="themeBtn">Toggle Theme</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="blog-post">
+      <h1>Getting Started with HTML</h1>
+      <p class="meta">By Sputnik| March 20, 2025 • 4 min read</p>
+
+      <img src="html.jpg" alt="HTML Basics" class="feature-img" />
+
+      <p>HTML (HyperText Markup Language) is the backbone of all web pages. It describes the structure of a webpage and tells the browser how to display content.</p>
+
+      <h2>What is HTML?</h2>
+      <p>HTML uses elements like headings, paragraphs, and lists to define content structure. Let’s start with a simple template:</p>
+
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;My Page&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+      <h2>Why Learn HTML?</h2>
+      <ul>
+        <li>Foundation of all websites</li>
+        <li>Essential for web developers and designers</li>
+        <li>Easy to learn and widely used</li>
+      </ul>
+
+      <blockquote>“A journey of a thousand lines of code begins with a single tag.”</blockquote>
+
+      <p>HTML is just the beginning. Once you understand its structure, you’ll be ready to dive into CSS and JavaScript.</p>
+    </article>
+
+    <section class="tags">
+      <strong>Tags:</strong>
+      <a href="#">#html</a> <a href="#">#webdev</a> <a href="#">#beginner</a>
+    </section>
+
+    <section class="author-bio">
+      <h3>About the Author</h3>
+      <p>Sputnik is a digital storyteller and tech blogger. She writes about web development, productivity, and creativity. <a href="about.html">Read more →</a></p>
+    </section>
+
+    <section class="post-nav">
+      <a href="#">← Previous Post</a>
+      <a href="#">Next Post →</a>
+    </section>
+
+    <section class="call-to-action">
+      <p>Enjoyed this article? <a href="blog.html">Read more posts</a> or <a href="#">subscribe</a> for updates!</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sputnik's Blog. All rights reserved.</p>
+  </footer>
+
+  <button id="scrollTop">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

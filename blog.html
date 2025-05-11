@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Posts - My Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <button id="nav-toggle">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+      </ul>
+      <button id="themeBtn">Dark Theme</button>
+    </nav>
+    <div class="hero-banner">
+      <h1>Welcome to the Blog</h1>
+      <p>Explore practical tips, tutorials, and thoughts on web development, tech trends, and writing.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Featured Post Section -->
+    <section class="featured-post animate-slidein">
+      <h2>Featured Post</h2>
+      <div class="featured-post-container">
+        <img src="javascript.jpg" alt="Featured Post Image" class="featured-image" />
+        <div class="featured-content">
+          <h3><a href="post.html">Mastering JavaScript in 2025</a></h3>
+          <p class="meta">Posted on May 10, 2025 · <span class="tags">#JavaScript #WebDev</span></p>
+          <p>Discover the latest JavaScript trends and techniques to stay ahead in web development.</p>
+          <a href="post.html" class="btn">Read More →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-posts">
+      <h2>Latest Posts</h2>
+      <div class="post animate-popin">
+        <h3><a href="post.html">Getting Started with HTML</a></h3>
+        <p class="meta">Posted on May 7, 2025 · <span class="tags">#HTML #Beginner</span></p>
+        <p>A beginner-friendly guide to building web pages with HTML.</p>
+        <a href="post.html" class="read-more">Read More →</a>
+      </div>
+
+      <div class="post animate-popin">
+        <h3><a href="post.html">CSS Tips and Tricks</a></h3>
+        <p class="meta">Posted on May 9, 2025 · <span class="tags">#CSS #Design</span></p>
+        <p>Level up your styles with advanced CSS techniques and transitions.</p>
+        <a href="post.html" class="read-more">Read More →</a>
+      </div>
+    </section>
+
+    <!-- Tags Section -->
+    <section class="tags-section">
+      <h3>Browse by Topics</h3>
+      <div class="tags">
+        <a href="#">#HTML</a>
+        <a href="#">#CSS</a>
+        <a href="#">#JavaScript</a>
+        <a href="#">#WebDev</a>
+      </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="subscribe">
+      <h3>Stay Updated</h3>
+      <p>Get the latest posts delivered to your inbox.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Author Spotlight Section -->
+    <section class="author-spotlight">
+      <blockquote>"There is no greater agony than bearing an untold story inside you." – Maya Angelou</blockquote>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sputnik's Creative Blog. All rights reserved.</p>
+  </footer>
+
+  <button id="scrollTop">↑</button>
+  <script src="script.js"></script>
+  
+</body>
+</html>
